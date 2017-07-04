@@ -1,0 +1,4 @@
+{
+  "presets": ["nodejs6", "react", "stage-1"]
+}
+

@@ -1,0 +1,2 @@
+export const get = () => Promise.resolve(Math.ceil(Math.random() * 100)); // in futhure we can do request to some api like - request('http://example.magic?x=3,y=4')
+export const getNumberDiff = (x, y) => Promise.resolve(x - y);

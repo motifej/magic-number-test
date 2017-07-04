@@ -1,0 +1,24 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "comma-dangle": ["off"],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "eol-last": ["off"],
+    "quote-props": ["off"],
+    "dot-notation": ["off"],
+    "no-mixed-operators": ["off"],
+    "no-param-reassign": ["off"],
+    "default-case": ["off"],
+    "no-shadow": ["off"],
+    "arrow-parens": ["off"],
+    "consistent-return": ["off"]
+  },
+  "globals": {
+    "describe": false,
+    "it": false,
+    "before": false
+  },
+  "settings": {
+    "import/core-modules": ['chai']
+  }
+}
